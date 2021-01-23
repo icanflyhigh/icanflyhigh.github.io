@@ -14,7 +14,7 @@ tags:
 
 >  毛振的个人网站
 >
-> 简介在左上角的[About Me](https://icanflyhigh.github.io/about/)
+> 简介在右上角的[About Me](https://icanflyhigh.github.io/about/)
 
 
 
