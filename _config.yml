@@ -1,9 +1,9 @@
 # Site settings
-title: BY Blog
-SEOTitle: 毛振的博客 | BY Blog
+title: simplex
+SEOTitle: 毛振的博客 
 header-img: img/head_back.jpg 
 email: maozhen65535@gmail.com
-description: "Every failure is leading towards success."
+description: "摸鱼，懒狗"
 keyword: "毛振"
 url: "http://icanflyhigh.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/icanflyhigh/icanflyhigh.github.io" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "摸鱼，懒狗"
 sidebar-avatar: /img/hen.gif      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -22,7 +22,7 @@ RSS: false
 csdn_username:      BBBCmz
 github_username:    icanflyhigh
 steam_username:     simplex
-weibo_username:     LeakyReLU
+weibo_username:     u/6933756630
 # facebook_username:  baiying.qiu.7
 # jianshu_username:   e71990ada2fd
 # twitter/ins_username:   <secret>
@@ -66,7 +66,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: c1f9d2e88168bd0d0d8e                           #生成的clientID
   clientSecret: 4d2ab1652973920c79fe89d7820141e355347efa   #生成的clientSecret
-  accessToken: fa65ac693ad18cd5e988f0fb9416620100198f97
+#   accessToken: 71f7512e69d22cd97ce7bee1cdbcb133aa167b90
   repo: CommentData    #仓库名称
   owner: icanflyhigh    #github用户名
   admin: icanflyhigh
@@ -80,7 +80,7 @@ gitalk:
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_track_id: ''            # Format: UA-xxxxxx-xx
 ga_domain: auto              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
