@@ -66,6 +66,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: c1f9d2e88168bd0d0d8e                           #生成的clientID
   clientSecret: 4d2ab1652973920c79fe89d7820141e355347efa   #生成的clientSecret
+  accessToken: fa65ac693ad18cd5e988f0fb9416620100198f97
   repo: CommentData    #仓库名称
   owner: icanflyhigh    #github用户名
   admin: icanflyhigh
