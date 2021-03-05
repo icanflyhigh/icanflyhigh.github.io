@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      图卷积模型
+subtitle:   ASGCN
+date:       2021-03-05
+author:     simplex
+header-img: img/page_back.jpg
+catalog: true
+tags:
+    - 图
+
+---
+
+# AS-GCN
+
+感觉网上资料不是很多,可能不是很重要
+
+重点在论文P3-4
+$$
+h^{(l+1)}(v_i) = \sigma_{W^{(l)}}(N(v_i)\Bbb{E}_{p(u_j|v_i)}[h^{(l)}(u_j)])
+$$
+
+
+
+将原本求全部点到目标点的影响，通过数学期望转变为通过蒙特卡洛采样，得到结果$\mu=\Bbb{E}_{p(u_j|v_i)}[h^{(l)}(u_j)]$
+
+
+
+$$
+\tilde u_p(v_i) = {1\over n}{\Sigma ^n_{i=1}}h^{(l)}(\hat u_j)
+$$
+
+
