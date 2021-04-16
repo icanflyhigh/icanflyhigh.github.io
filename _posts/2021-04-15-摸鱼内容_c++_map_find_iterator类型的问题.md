@@ -29,15 +29,15 @@ enum node_type {
 };
 
 map<string, node_type>  node_type_map {
-	{{"nop"}, node_nop},
-	{{"assign"}, node_assign},
-	{{"add"}, node_add},
-	{{"sub"}, node_sub},
-	{{"mul"}, node_mul},
-	{{"div"}, node_div},
-	{{"if"}, node_if},
-	{{"while"}, node_while},
-	{{"declare"}, node_declare,}
+	{ {"nop"}, node_nop},
+	{ {"assign"}, node_assign},
+	{ {"add"}, node_add},
+	{ {"sub"}, node_sub},
+	{ {"mul"}, node_mul},
+	{ {"div"}, node_div},
+    { {"if"}, node_if},
+	{ {"while"}, node_while},
+	{ {"declare"}, node_declare,}
 };
 node_type check_node_type(const string & s) 
 {
