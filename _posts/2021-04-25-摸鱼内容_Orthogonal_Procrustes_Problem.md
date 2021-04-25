@@ -19,6 +19,7 @@ https://blog.csdn.net/itnerd/article/details/104598742
 你pad上ITQ那边也记了一遍
 
 目标问题
+
 $$
 min || A\Omega - B||^2\\
 s.t. \Omega^T\Omega = I
@@ -56,12 +57,15 @@ tr(B^TA\Omega) = tr(U\Sigma V^T \Omega) \\
 =\Sigma_{i}\sigma_{ii}z_{ii}\\
 \leqslant \Sigma_{i}\sigma_{ii}
 $$
+
 取等号的条件为：Z的对角元为1
 
 令$$ Z =I = V^T\Omega U$$则有
+
 $$
-\Omega = VU^T
+\Omega = VU^T
 $$
+
 主要用到的东西就是矩阵trace中转置的各种变化，
 
 看起来不是很难嘛（flag语言
