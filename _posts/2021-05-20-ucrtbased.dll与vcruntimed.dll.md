@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      垃圾话
+title:      ucrtbased.dll与vcruntimed.dll
 subtitle:   学习
 date:       2021-05-20
 author:     simplex
